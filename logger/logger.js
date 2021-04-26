@@ -3,8 +3,8 @@ import { logflarePinoVercel } from 'pino-logflare'
 
 // create pino-logflare console stream for serverless functions and send function for browser logs
 const { stream, send } = logflarePinoVercel({
-    apiKey: "S85LoAXJUB8U",
-    sourceToken: "3506f105-02a6-4118-bbb4-3f05e5d684b2"
+    apiKey: "68vIfYkFdI7C",
+    sourceToken: "253d6007-7f97-4bf9-85bc-4652b216cef4"
 });
 
 // create pino loggger
